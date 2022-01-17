@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Wynmere</title>
+    <meta name="description" content="Page-specific description" />
+    <meta name="keywords" content="Page-specific keywords" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="shortcut icon"
+      href="static/images/favicons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      href="static/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="static/images/favicons/apple-touch-icon-precomposed.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="static/css/screen.min.css" />
+    <link rel="stylesheet" href="static/css/custom.min.css" />
+  </head>
+  <body>
+    <!-- $Page header-->
+    <header class="page-header js-header">
+      <div class="page-header__inner">
+        <div class="page-header__logo">
+            <a href="#"><img
+                class="page-header__brandname js-lazy"
+                src="static/images/brandname.jpg"
+                alt="Wynmere"
+            /></a>
+            &nbsp;<span>Creating magical products and games</span>
+        </div>
+        <nav class="page-header__nav js-nav">
+          <ul>
+            <li>
+              <a
+                class="page-header__nav-link js-anchor js-link is-active"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="page-header__nav-link js-anchor js-link"
+                href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="page-header__nav-link js-anchor js-link" href="#team"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a class="page-header__nav-link js-anchor js-link" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- $Promo section-->
+    <section class="promo js-jumbo" id="home">
+      <h2 class="promo__title">We are Wynmere</h2>
+      <p class="promo__descr">
+        An ambitious mobile app and indie game development studio dedicated to creating memorable experiences.
+      </p>
+      <a class="promo__btn" href="#">Learn more</a>
+      <a class="promo__go-next js-anchor" href="#portfolio">Scroll down</a>
+    </section>
+    <!-- $Portfolio section-->
+    <section class="portfolio js-portfolio" id="portfolio">
+      <div class="portfolio__inner">
+        <h2 class="portfolio__title">Portfolio</h2>
+        <p class="portfolio__descr">
+          We are working on new products and currently have proofs of concept
+          and prototypes.
+        </p>
+        <nav class="portfolio__filter">
+          <ul>
+            <li
+              class="portfolio__filter-btn is-selected js-filter"
+              data-filter="all"
+            >
+              All
+            </li>
+            <li class="portfolio__filter-btn js-filter" data-filter="apps">
+              Apps
+            </li>
+            <li class="portfolio__filter-btn js-filter" data-filter="games">
+              Games
+            </li>
+          </ul>
+        </nav>
+        <ul class="portfolio__content">
+          <li class="portfolio__item js-item" data-cat="all apps">
+            <a href="https://parallel-app.herokuapp.com/" target=_blank
+              ><img
+                class="portfolio__item-img js-lazy"
+                src="static/images/parallel.jpg"
+                alt=""
+              />
+              <div class="portfolio__item-caption">
+                <span class="portfolio__item-title">Parallel</span>
+                <span class="portfolio__item-cat">2021</span>
+              </div></a
+            >
+          </li>
+          <li class="portfolio__item js-item" data-cat="all games">
+            <a href="https://youtu.be/zoUVWrD0Mxw" target=_blank
+              ><img
+                class="portfolio__item-img js-lazy"
+                src="static/images/salem.jpg"
+                alt=""
+              />
+              <div class="portfolio__item-caption">
+                <span class="portfolio__item-title">Salem's Cafe</span>
+                <span class="portfolio__item-cat">2021</span>
+              </div></a
+            >
+          </li>
+          <li class="portfolio__item js-item" data-cat="all games">
+            <a href="https://youtu.be/WUdBEyHY4rM" target=_blank
+              ><img
+                class="portfolio__item-img js-lazy"
+                src="static/images/chroma.jpg"
+                alt=""
+              />
+              <div class="portfolio__item-caption">
+                <span class="portfolio__item-title">Chroma</span>
+                <span class="portfolio__item-cat">2021</span>
+              </div></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- $Team section-->
+    <section class="team" id="team">
+      <div class="team__inner">
+        <h2 class="team__title">Meet the Team</h2>
+        <p class="team__descr">
+          We are a small team with a passion for making creative apps and games.
+        </p>
+        <div class="team__member">
+          <img src="static/images/josh_placeholder.jpg" alt="Joshua M." />
+          <div class="team__member-info">
+            <h3 class="team__member-name">Joshua M.</h3>
+            <span class="team__member-role">Owner & Developer</span>
+            <p class="team__member-descr">
+              A tenacious, experienced programmer motivated by bubble tea and 1
+              gacha game.
+            </p>
+          </div>
+          <ul class="team__member-soc">
+            <li>
+              <a
+                class="team__member-icon ln"
+                href="https://www.linkedin.com/in/joshua-mire/"
+                target="_blank"
+                >My LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                class="team__member-icon gh"
+                href="https://github.com/Joushy"
+                target="_blank"
+                >My GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                class="team__member-icon c"
+                href="https://joshuamire.wordpress.com/"
+                target="_blank"
+                >My Website</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="team__member">
+          <img src="static/images/diana_placeholder.jpg" alt="Diana N." />
+          <div class="team__member-info">
+            <h3 class="team__member-name">Diana N.</h3>
+            <span class="team__member-role">Operations & Art</span>
+            <p class="team__member-descr">
+              A sporadically-productive developer with too many hobbies and
+              plushies.
+            </p>
+          </div>
+          <ul class="team__member-soc">
+            <li>
+              <a
+                class="team__member-icon ln"
+                href="https://www.linkedin.com/in/nguyen-diana/"
+                target="_blank"
+                >My LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                class="team__member-icon gh"
+                href="https://github.com/Diana-Nguyen"
+                target="_blank"
+                >My GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="team__member">
+          <img src="static/images/ren_headshot.jpg" alt="Ren" />
+          <div class="team__member-info">
+            <h3 class="team__member-name">Ren</h3>
+            <span class="team__member-role">Office Manager</span>
+            <p class="team__member-descr">
+              A chaotic supervisor who boldly speaks her mind and screams in the
+              kitchen.
+            </p>
+          </div>
+          <ul class="team__member-soc">
+            <li>
+              <a
+                class="team__member-icon ig"
+                href="https://www.instagram.com/ren_and_jiro/"
+                target="_blank"
+                >Our Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="team__member">
+          <img src="static/images/jiro_headshot.jpg" alt="Jiro" />
+          <div class="team__member-info">
+            <h3 class="team__member-name">Jiro</h3>
+            <span class="team__member-role">Community Manager</span>
+            <p class="team__member-descr">
+              A determined visionary who guilt-trips for cuddles and loves butt
+              scratches.
+            </p>
+          </div>
+          <ul class="team__member-soc">
+            <li>
+              <a
+                class="team__member-icon ig"
+                href="https://www.instagram.com/ren_and_jiro/"
+                target="_blank"
+                >Our Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- $Contact section-->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <h2 class="contact__title">Contact us</h2>
+        <p class="contact__descr">
+          We accept any questions or comments through email or the form below.
+        </p>
+        <form class="contact__form" action="mailto: team@wynmere.com" method="post">
+          <input
+            class="contact__form-input"
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Your name"
+          />
+          <input
+            class="contact__form-input"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your email"
+          />
+          <textarea
+            class="contact__form-tarea"
+            id="message"
+            name="message"
+            placeholder="Your message"
+          ></textarea>
+          <input class="contact__form-submit" type="submit" value="Submit" />
+        </form>
+        <div class="contact__card">
+          <h3 class="contact__card-title">Information</h3>
+          <div class="contact__card-item place">
+            <div class="fn org">Wynmere Studios</div>
+            <div class="adr">
+              <span class="locality">Redmond</span>,
+              <span class="region">Washington</span>
+            </div>
+          </div>
+          <!-- <div class="contact__card-item tel">+1 (111) 444-1234</div> -->
+          <a class="contact__card-item email" href="mailto: team@wynmere.com">team@wynmere.com</a>
+        </div>
+      </div>
+    </section>
+    <!-- $Page footer-->
+    <footer class="page-footer">
+      <div class="page-footer__inner">
+        <span class="page-footer__copyright"
+          >Copyright © 2022 Wynmere</span
+        >
+        <a class="page-footer__gotop js-anchor" href="#home">Go to top</a>
+      </div>
+    </footer>
+    <script src="static/js/body.min.js"></script>
+  </body>
+</html>
