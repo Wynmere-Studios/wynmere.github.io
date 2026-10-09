@@ -21,7 +21,7 @@ function App() {
     document.title = 'Wynmere Studios';
 
     // Add custom styles to the body
-    document.body.classList.add('bg-indigo-950', 'text-white', 'antialiased');
+    document.body.classList.add('bg-ink-950', 'text-white', 'antialiased');
 
     // Add animations CSS
     const style = document.createElement('style');
@@ -57,7 +57,7 @@ function App() {
 
     // Clean up
     return () => {
-      document.body.classList.remove('bg-indigo-950', 'text-white', 'antialiased');
+      document.body.classList.remove('bg-ink-950', 'text-white', 'antialiased');
       document.head.removeChild(style);
     };
   }, []);
@@ -75,7 +75,7 @@ function App() {
       </main>
       
       <footer className="relative py-8 px-4 text-center text-white/60 text-sm">
-        <div className="absolute inset-0 bg-indigo-950 z-0" />
+        <div className="absolute inset-0 bg-ink-950 z-0" />
         <div className="relative z-10">
           © {new Date().getFullYear()} Wynmere. All rights reserved.
         </div>

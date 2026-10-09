@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-ink-950 via-plum-900 to-ink-900 z-0" />
 
       {/* Star particles */}
       <StarParticles />

@@ -8,13 +8,13 @@ const AboutSection: React.FC = () => {
       className="relative py-24 px-4 overflow-hidden"
     >
       {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900 to-indigo-950 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink-900 to-ink-950 z-0" />
 
       {/* Decorative elements */}
-      <div className="absolute top-20 left-10 text-pink-500/20">
+      <div className="absolute top-20 left-10 text-white/10">
         <Star className="h-16 w-16 animate-pulse" />
       </div>
-      <div className="absolute bottom-20 right-10 text-purple-500/20">
+      <div className="absolute bottom-20 right-10 text-white/10">
         <Sparkles className="h-20 w-20 animate-pulse" style={{ animationDelay: '1s' }} />
       </div>
 
@@ -26,15 +26,11 @@ const AboutSection: React.FC = () => {
 
         <div className="prose prose-lg prose-invert mx-auto">
           <p className="text-white/80 mb-6 leading-relaxed">
-            Wynmere Studios is a remote-first creative collective based in Washington, crafting whimsical games and magical tools—each one woven from stardust and stories.
-          </p>
-
-          <p className="text-white/80 mb-6 leading-relaxed">
-            Founded by storytellers, artists, and technologists, we blend narrative, cozy design, and accessibility to build playful, inclusive experiences that spark curiosity and joy. From experimental apps to story-rich games, we create with intention, imagination, and care.
+            Wynmere is an indie game studio based in Washington. We make cozy games and creative tools, with a focus on storytelling, thoughtful design, and accessibility.
           </p>
 
           <p className="text-white/80 leading-relaxed">
-            We're a small studio with big dreams—independent, multidisciplinary, and proudly community-centered.
+            We're a duo, writing, designing, and developing. Right now we're working on Mycelium, and we'll share more as it comes together.
           </p>
         </div>
       </div>

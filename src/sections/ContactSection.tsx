@@ -6,7 +6,7 @@ const ContactSection: React.FC = () => {
   return (
     <section id="contact" className="relative py-24 px-4">
       {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-pink-900 to-indigo-950 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-plum-900 to-ink-950 z-0" />
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto">
@@ -35,7 +35,7 @@ const ContactSection: React.FC = () => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-plum-400"
                   placeholder="Your name"
                   required
                 />
@@ -48,7 +48,7 @@ const ContactSection: React.FC = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-plum-400"
                   placeholder="your.email@example.com"
                   required
                 />
@@ -62,7 +62,7 @@ const ContactSection: React.FC = () => {
                 id="message"
                 name="message"
                 rows={5}
-                className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-plum-400"
                 placeholder="What would you like to say?"
                 required
               />
@@ -77,7 +77,7 @@ const ContactSection: React.FC = () => {
           <div className="mt-10 pt-8 border-t border-white/10">
             <div className="text-center">
               <p className="text-white/70 mb-4">Or reach out directly:</p>
-              <a href="mailto:team@wynmere.com" className="inline-flex items-center text-white hover:text-purple-300 transition-colors">
+              <a href="mailto:team@wynmere.com" className="inline-flex items-center text-white hover:text-plum-400 transition-colors">
                 <Mail className="h-5 w-5 mr-2" />
                 team@wynmere.com
               </a>

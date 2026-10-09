@@ -8,32 +8,32 @@ const EthosSection: React.FC = () => {
       icon: 'Palette',
       title: 'Whimsical Creation',
       description:
-        'We craft cozy, enchanting games and apps that invite curiosity, creativity, and wonder for dreamers of all ages.'
+        'We make cozy games and tools that are nice to spend time in.'
     },
     {
       icon: 'BookOpen',
       title: 'Story-First Design',
       description:
-        `Every creation begins with a story. Whether it's a witchy tea-brewing adventure or a charming productivity tool, narrative threads run through all we build.`
+        `Most of what we build starts with a story, whether it's a game or a tool for writing one.`
     },
     {
       icon: 'Users',
       title: 'Community & Care',
       description:
-        'We design with intention—for everyone. Our creations center inclusivity, accessibility, and empathy, welcoming all kinds of players and users into magical spaces.'
+        'We design with accessibility and inclusivity in mind so more people can play and use what we make.'
     },
     {
-      icon: 'Lightbulb',
-      title: 'Curious Innovation',
+      icon: 'Brush',
+      title: 'Human-Made Art',
       description:
-        'We explore playful ideas and experiment with unexpected interactions, blending art and technology to invent joyful, meaningful experiences.'
+        `All of our art is made by people. We don't use AI-generated art in our games or tools.`
     }
   ];
 
   return (
     <section id="ethos" className="relative py-24 px-4">
       {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900 to-pink-900 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink-900 to-plum-900 z-0" />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto">
@@ -42,7 +42,7 @@ const EthosSection: React.FC = () => {
             Our Studio Ethos
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            The principles that guide our creative journey and shape the experiences we craft.
+            What we care about when we make things.
           </p>
         </div>
 

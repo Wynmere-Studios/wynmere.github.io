@@ -37,7 +37,7 @@ const StarParticles: React.FC<StarParticlesProps> = ({ className = '' }) => {
       particles = [];
       const particleCount = Math.min(Math.floor(window.innerWidth * 0.05), 100);
       
-      const colors = ['#f9d4ff', '#d4f9ff', '#f9ffd4', '#ffffff'];
+      const colors = ['#e6dff0', '#dbe6e1', '#ffffff'];
       
       for (let i = 0; i < particleCount; i++) {
         particles.push({
@@ -45,7 +45,7 @@ const StarParticles: React.FC<StarParticlesProps> = ({ className = '' }) => {
           y: Math.random() * canvas.height,
           size: Math.random() * 2 + 0.5,
           speed: Math.random() * 0.2 + 0.1,
-          opacity: Math.random() * 0.5 + 0.3,
+          opacity: Math.random() * 0.35 + 0.15,
           color: colors[Math.floor(Math.random() * colors.length)]
         });
       }

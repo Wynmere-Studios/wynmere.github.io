@@ -9,7 +9,7 @@ interface CreationCardProps {
 const CreationCard: React.FC<CreationCardProps> = ({ creation }) => {
   return (
     <div className="group relative rounded-xl overflow-hidden transition-transform duration-500 hover:scale-[1.02] hover:shadow-xl">
-      <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/90 via-indigo-900/60 to-transparent z-10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/50 to-transparent z-10" />
 
       <img
         src={creation.imageUrl}
@@ -20,7 +20,7 @@ const CreationCard: React.FC<CreationCardProps> = ({ creation }) => {
 
       <div className="absolute inset-0 z-20 flex flex-col justify-end p-6">
         {creation.comingSoon && (
-          <div className="bg-pink-600/90 text-white text-xs font-medium px-3 py-1 rounded-full w-max mb-3">
+          <div className="bg-white/10 text-white/80 border border-white/15 text-xs font-medium px-3 py-1 rounded-full w-max mb-3">
             Coming Soon
           </div>
         )}
